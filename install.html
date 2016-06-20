@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>EditSee Install</title>
+<meta name="viewport"
+  content="width=device-width,
+  minimum-scale=1.0, maximum-scale=1.0" />
+<style type="text/css">
+img {
+  display: block;
+  margin: 0 auto;
+}
+.form-style-7 {
+    max-width:425px;
+    margin:0 auto;
+    border-radius:2px;
+    padding:20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-7 h1 {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0px 0px 20px 0px;
+    color: #5C5C5C;
+    font-size:x-large;
+}
+.form-style-7 ul {
+    list-style:none;
+    padding:0;
+    margin:0;   
+}
+.form-style-7 li {
+    display: block;
+    padding: 9px;
+    border:1px solid #39b54a;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+.form-style-7 li:last-child {
+    border:none;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.form-style-7 li > label {
+    display: block;
+    float: left;
+    margin-top: -19px;
+    background: #FFFFFF;
+    height: 14px;
+    padding: 2px 5px 2px 5px;
+    color: #B9B9B9;
+    font-size: 14px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-style-7 input[type="text"],
+.form-style-7 input[type="date"],
+.form-style-7 input[type="datetime"],
+.form-style-7 input[type="email"],
+.form-style-7 input[type="number"],
+.form-style-7 input[type="search"],
+.form-style-7 input[type="time"],
+.form-style-7 input[type="url"],
+.form-style-7 input[type="password"],
+.form-style-7 textarea,
+.form-style-7 select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+}
+.form-style-7 li > span {
+    background: #F3F3F3;
+    display: block;
+    padding: 3px;
+    margin: 0 -9px -9px -9px;
+    text-align: center;
+    color: #C0C0C0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+.form-style-7 textarea {
+    resize:none;
+}
+.form-style-7 input[type="submit"],
+.form-style-7 input[type="button"] {
+    background: #2471FF;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 3px solid #5994FF;
+    border-radius: 3px;
+    color: #D2E2FF;
+}
+.form-style-7 button {
+  padding: 10px;
+  border: 2px solid #46B754;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.form-style-button-7 button:active {
+  border-left: 2px solid #ccc;
+  border-top:2px solid #ccc;
+}
+</style>
+</head>
+<body>
+<form id="editsee_install" class="form-style-7">
+<h1>
+    <img src="logo_300px.png" alt="EditSee logo" />
+</h1>
+<ul>
+<li>
+    <label for="site_title">Site Title</label>
+    <input type="text" name="site_title" />
+    <span>Enter the title for your website</span>
+</li>
+<li>
+    <label for="site_desc">Site Description</label>
+    <input type="text" name="site_desc" />
+    <span>Enter a description or slogan for your website</span>
+</li>
+<li></li>
+</ul>
+<h1>EditSee Database</h1>
+<ul>
+<li>
+    <label for="db_host">Host</label>
+    <input type="text" name="db_host" placeholder="localhost" />
+    <span>Enter your MySQL database host (usually localhost)</span>
+</li>
+<li>
+    <label for="db_name">Name</label>
+    <input type="text" name="db_name" />
+    <span>Enter the name of your MySQL database</span>
+</li>
+<li>
+    <label for="db_username">User Name</label>
+    <input type="text" name="db_username" />
+    <span>Enter your MySQL database username</span>
+</li>
+<li>
+    <label for="db_password">Password</label>
+    <input type="text" name="db_password" />
+    <span>Enter your MySQL database password</span>
+</li>
+<li>
+    <label for="db_tableprefix">Table Prefix</label>
+    <input type="text" name="db_tableprefix" placeholder="es_" />
+    <span>Enter a database table prefix</span>
+</li>
+<li></li>
+</ul>
+<h1>EditSee Administrator</h1>
+<ul>
+<li>
+    <label for="admin_username">User Name</label>
+    <input type="text" name="admin_username" />
+    <span>Enter a username for EditSee login</span>
+</li>
+<li>
+    <label for="admin_password">Password</label>
+    <input type="text" name="admin_password" />
+    <span>Enter a password for EditSee login</span>
+</li>
+<li>
+    <label for="admin_email">E-mail Address</label>
+    <input type="email" name="admin_email" />
+    <span>Enter a password recovery e-mail address</span>
+</li>
+<li>
+  <button>Install EditSee</button>
+</li>
+</ul>
+</form>
+</body>
+</html>
