@@ -1,4 +1,4 @@
-![EditSee Logo](http://editsee.org/logo.png)
+![EditSee Logo](https://raw.githubusercontent.com/apexad/EditSee2/39b2d6ef8e3711724ef3e10264ba487f280452ba/logo_300px.png)
 
 ## What is EditSee?
 
